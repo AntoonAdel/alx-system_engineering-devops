@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# ls With for
+
+for n in *
+do
+    echo "$n" | rev | cut -d"-" -f 1 | rev
+done
