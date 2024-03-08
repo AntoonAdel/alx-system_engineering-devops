@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# displays Best School 10 times with while
+
+n=1
+while [ $n -le 10 ]
+do
+    if [ $n -ne 9 ]
+    then
+	echo "Best School"
+    else
+	echo -e "Best School\nHi"
+    fi
+    n=$((n + 1))
+done
