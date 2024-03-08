@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Whilt to print clock time
+
+n=0
+while [ $n -le 12 ]
+do
+    a=1
+    echo "Hour: $n"
+    while [ $a -le 59 ]
+    do
+	echo $a
+	((a++))
+    done
+    ((n++))
+done
