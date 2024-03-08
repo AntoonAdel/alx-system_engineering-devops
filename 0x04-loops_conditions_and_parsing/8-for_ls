@@ -3,5 +3,5 @@
 
 for n in *
 do
-    echo "$n" | rev | cut -d"-" -f 1 | rev
+    echo "$n" | cut -d'-' -f2
 done
